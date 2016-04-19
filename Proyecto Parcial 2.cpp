@@ -35,7 +35,7 @@ int main(){
     in = fopen ("Secuencia.txt","r");
     out = fopen("output.txt","w"); ///Ocupe esto para poder visualizar mejor la salida en un archivo
     ///por eso mis printf estan escritos así fprintf (archivo,tipo,nombredevariable)
-    */
+    
     do{
         printf("Escoja una opcion:\n 1.- Cargar Archivo \n 2.- Buscar por clave \n 3.- Imprimir todas las secuencias\n");
         scanf("%d",&opcion);
